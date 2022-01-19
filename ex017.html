@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>EX017</title>
+    </head>
+    <body>
+        <script>
+            cop = prompt("Digite o valor do cateto oposto: ");
+            cop = parseFloat(cop);
+            cad = prompt("Digite o valor do cateto adjacente: ");
+            cad = parseFloat(cad);
+            hip = ((cop ** 2) + (cad ** 2)) ** (1/2)//0.5;
+            document.write("Cateto Oposto: "+cop);
+            document.write("<br>Cateto Adjacente: "+cad);
+            document.write("<br>O comprimento da Hipotenusa é de "+hip);
+        </script>
+    </body>
+</html>

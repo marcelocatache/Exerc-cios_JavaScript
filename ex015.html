@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>EX015</title>
+    </head>
+    <body>
+        <script>
+            dias = prompt("Quantos dias foram alugados?");
+            dias = parseFloat(dias);
+            km = prompt("Quantos Km foram rodados? ");
+            km = parseFloat(km);
+            pago = (km * 0.15) + (dias * 60);
+            document.write("Dias alugados: "+dias);
+            document.write("<br>Km rodados: "+km);
+            document.write("<br>O valor a pagar é de R$"+pago);
+        </script>
+    </body>
+</html>
